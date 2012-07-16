@@ -1,3 +1,33 @@
 // Place all the styles related to the Boards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#welcome {
+  margin-left:33%;
+  margin-top:10%;
+  postition:relative;
+  background: #000;
+  color:#fff;
+  border:.5em solid #909088;  
+  border-radius:5px;
+  padding:.5em .25em 1.5em .25em;
+  width:33%;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:1em;
+}
+
+#getin {
+  text-align:center;
+  margin-top:2em;
+  background-color:#F0F0E3;
+  height:1.5em;
+}
+
+#getin:focus{
+  outline:none;
+  border-color:#9ecaed;
+  box-shadow:0 0 5px #F0F0E3;
+  
+}

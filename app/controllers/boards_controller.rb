@@ -7,8 +7,6 @@ class BoardsController < ApplicationController
     @password = "chalk"
   end
 
-  
-
   def index
     @boards = Board.all
 
