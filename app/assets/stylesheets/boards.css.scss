@@ -11,7 +11,7 @@
   color:#fff;
   border:.5em solid #909088;  
   border-radius:5px;
-  padding:.5em .25em 1.5em .25em;
+  padding:.5em .25em 2em .25em;
   width:33%;
   text-align:center;
   text-transform:uppercase;
@@ -21,13 +21,16 @@
 #getin {
   text-align:center;
   margin-top:2em;
+  border-color:#909088;
   background-color:#F0F0E3;
+  border-radius:1em;
   height:1.5em;
+  width:20em;
 }
 
 #getin:focus{
   outline:none;
-  border-color:#9ecaed;
-  box-shadow:0 0 5px #F0F0E3;
-  
+  box-shadow:0px 0px 10px #fff;
+  -moz-box-shadow: 0px 0px 10px #fff;
+  -webkit-box-shadow: 0px 0px 10px #fff;  
 }
