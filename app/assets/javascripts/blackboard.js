@@ -1,15 +1,23 @@
 window.onload = function() {
   var paper = new Raphael(document.getElementById('welcome'), 500, 500);
-  var circles = paper.set();
+  var line = paper.set();
+  
+  function draw(x, y) {
+    line.push(paper.circle(x, y, 1));
+    //alert(x + ", " + y);
+  }
+
+  
   
   $('#welcome').mousedown(function(e) {
     
     $('#welcome').mousemove(function(e) {
         $('#status').html(e.pageX +', '+ e.pageY);
+        draw(e.pageX, e.pageY);
     });
     
-    $('#welcome').mouseup(function(e) {
-       unbind('mousemove')
+    $(document).mouseup(function(e) {
+       $('#welcome').unbind('mousemove');
     }); 
   
   }); 
@@ -19,5 +27,5 @@ window.onload = function() {
   
   
 
-  circles.attr({stroke: "#fff",fill: "#333", radial_gradient: "r#fff-#000"})  
+  line.attr({stroke: "#fff",fill: "#333", radial_gradient: "r#fff-#000"})  
 }
