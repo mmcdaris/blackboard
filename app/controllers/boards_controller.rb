@@ -1,10 +1,11 @@
 class BoardsController < ApplicationController
+  
+  
   # GET /boards
   # GET /boards.json
   
   def welcome
     # sets an entry password to get in
-    @password = "chalk"
   end
 
   def index

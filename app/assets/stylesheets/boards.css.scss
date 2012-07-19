@@ -4,18 +4,23 @@
 
 
 #welcome {
-  margin-left:33%;
-  margin-top:10%;
+  margin-left:5%;
+  margin-top:5%;
   postition:relative;
   background: #000;
   color:#fff;
   border:.5em solid #909088;  
   border-radius:5px;
   padding:.5em .25em 2em .25em;
-  width:33%;
+  width:50%;
   text-align:center;
   text-transform:uppercase;
   letter-spacing:1em;
+  min-height:30em;
+  float:left;
+}
+
+#status {
 }
 
 #getin {
