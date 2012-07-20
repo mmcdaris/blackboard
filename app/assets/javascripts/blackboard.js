@@ -1,7 +1,7 @@
 window.onload = function() {
   var paper = new Raphael(document.getElementById('welcome'), 500, 500);
   var color = "#fff";
-  var size = 4;
+  var size = 20;
   
   
   //hijack that mouse!
