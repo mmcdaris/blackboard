@@ -18,24 +18,10 @@
   letter-spacing:1em;
   min-height:30em;
   float:left;
+  cursor: url(mycursor.cur)
 }
 
-#status {
+#colors {
+
 }
 
-#getin {
-  text-align:center;
-  margin-top:2em;
-  border-color:#909088;
-  background-color:#F0F0E3;
-  border-radius:1em;
-  height:1.5em;
-  width:20em;
-}
-
-#getin:focus{
-  outline:none;
-  box-shadow:0px 0px 10px #fff;
-  -moz-box-shadow: 0px 0px 10px #fff;
-  -webkit-box-shadow: 0px 0px 10px #fff;  
-}
