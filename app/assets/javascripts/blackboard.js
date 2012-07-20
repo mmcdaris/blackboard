@@ -1,7 +1,7 @@
 window.onload = function() {
   var paper = new Raphael(document.getElementById('welcome'), 500, 500);
   var color = "#fff";
-  var size = 20;
+  var size = 18;
   
   
   //hijack that mouse!
@@ -9,7 +9,7 @@ window.onload = function() {
     $('#welcome').mousemove(function(e) {
         $('#status').html(e.pageX +', '+ e.pageY);
         var circle = paper.circle(e.pageX - 100, e.pageY - 85, size);
-        circle.attr({stroke: color,fill: color}) 
+        circle.attr({stroke: color,fill: #333}) 
     });
     $(document).mouseup(function(e) {
        $('#welcome').unbind('mousemove');
