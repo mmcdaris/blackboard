@@ -9,7 +9,7 @@ window.onload = function() {
     $('#welcome').mousemove(function(e) {
         $('#status').html(e.pageX +', '+ e.pageY);
         var circle = paper.circle(e.pageX - 100, e.pageY - 85, size);
-        circle.attr({stroke: color,fill: #333}) 
+        circle.attr({stroke: color,fill: "#333"}) 
     });
     $(document).mouseup(function(e) {
        $('#welcome').unbind('mousemove');
